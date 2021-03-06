@@ -4,11 +4,17 @@
 
 ## Installation
 
+Install the correct versions of each package, which are listed by the command:
+
+```console
+npm info "style-config-sensetime@latest" peerDependencies
+```
+
+If using npm 5+, use this shortcut
+
 ```console
 
-npm install style-config-sensetime --save-dev
-npm install-peerdeps --dev style-config-sensetime
-
+npx install-peerdeps --dev style-config-sensetime
 ```
 
 ## Usage
